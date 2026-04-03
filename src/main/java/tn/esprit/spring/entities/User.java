@@ -70,9 +70,9 @@ public class User implements Serializable {
 		this.id = id;
 	}
 
-	public String getLastName() {
-		return lastName;
-	}
+	public String getLastName() {	
+            return lastName + "-v1";
+         }
 	public void setLastName(String lName) {
 		this.lastName = lName;
 	}
