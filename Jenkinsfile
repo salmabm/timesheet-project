@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh """
                     docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
-                    docker login -u salmabm45 -p YOUR_DOCKERHUB_PASSWORD
+                    docker login -u salmabm45 -p salma++123
                     docker push ${IMAGE_NAME}:${IMAGE_TAG}
                 """
             }
