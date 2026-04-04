@@ -1,0 +1,6 @@
+projectKey=tn.esprit.spring.services:timesheet-devops
+serverUrl=http://localhost:9000
+serverVersion=26.3.0.120487
+dashboardUrl=http://localhost:9000/dashboard?id=tn.esprit.spring.services%3Atimesheet-devops
+ceTaskId=7cba189f-7260-49c3-9d14-350b18fa3f31
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7cba189f-7260-49c3-9d14-350b18fa3f31
